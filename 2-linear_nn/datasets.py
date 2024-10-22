@@ -3,7 +3,7 @@ import torchvision
 from torch.utils import data
 from torchvision import transforms
 from d2l import torch as d2l
-# ttt
+# 
 from matplotlib import pyplot as plt
 
 if __name__ == '__main__':
@@ -13,3 +13,4 @@ if __name__ == '__main__':
         break
     d2l.show_images(X.reshape(32, 28, 28), 2, 9, titles=d2l.get_fashion_mnist_labels(y))
     plt.show()
+    

@@ -9,6 +9,7 @@ requirements = [
     'pandas==1.2.4'
 ]
 
+
 setup(
     name='d2l',
     version=d2l.__version__,

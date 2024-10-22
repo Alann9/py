@@ -16,3 +16,10 @@ if __name__ == '__main__':
         break
     d2l.show_images(X.reshape(32, 28, 28), 2, 9, titles=d2l.get_fashion_mnist_labels(y))
     plt.show()
+<<<<<<< HEAD
+=======
+
+
+
+    
+>>>>>>> ef6f841fc9a562285c659019785060c7e318b23a

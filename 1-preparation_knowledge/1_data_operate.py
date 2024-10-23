@@ -6,6 +6,7 @@ from torchvision import transforms
 from d2l import torch as d2l
 
 x = torch.arange(24).reshape((1, 4, 3, 2))
+
 y = torch.arange(72).reshape((3, 4, 3, 2))
 
 print(x.shape, y.shape)
